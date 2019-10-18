@@ -11,7 +11,7 @@ const app = express();
 const server = http.Server(app);
 const io = socketio(server);
 
-mongoose.connect('mongodb+srv://nodeUser:9306@nodeapi-c8uq6.mongodb.net/stack?retryWrites=true&w=majority', {
+mongoose.connect('user+srv://nodeUser:pass@nodeapi-c8uq6.mongodb.net/stack?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
